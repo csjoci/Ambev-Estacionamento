@@ -1,12 +1,11 @@
 ﻿
 
 using Modulo1.Console.Entidades;
+using static Modulo1.Console.Entidades.Veiculo;
 
-//Usuario usuario = new Usuario();
-//usuario.NovoUsuario("123", "tg", "Thamirys", TipoUsuario.Admin);
+//Herança com Veiculo
+Veiculo veiculo = new Veiculo("123", "fusca", "ford", "azul");
+veiculo.MostrarDetalhes();
 
-Usuario usuarioEstatico = Usuario.NovoUsuario("123", "tg", "Thamirys", TipoUsuario.Admin);
-
-usuarioEstatico.InativarUsuario();
-
-Console.ReadLine();
+Carro carro = new Carro("123", "fusca", "ford", "azul");
+carro.MostrarDetalhes();

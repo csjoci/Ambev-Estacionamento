@@ -30,5 +30,10 @@
         public decimal ValorAdicionalHora { get; set; }
         public decimal ValorDiaria { get; set; }
         public decimal ValorPernoite { get; set; }
+
+        public void CalculaPreco(int Horas)
+        {
+
+        }
     }
 }
